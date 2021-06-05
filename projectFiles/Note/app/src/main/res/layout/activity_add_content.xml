@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".addContent">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/c_img"
+        android:visibility="gone"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:gravity="top"
+        android:id="@+id/etText"
+        android:hint="记录生活的事情......"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/save"
+            android:layout_weight="1"
+            android:textColor="@color/btn_selector_color"
+            android:background="#f2f2f2"
+            android:drawableTop="@drawable/select_save"
+            android:paddingTop="10dp"
+            android:text="保存"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel"
+            android:layout_weight="1"
+            android:textColor="@color/btn_selector_color"
+            android:background="#f2f2f2"
+            android:drawableTop="@drawable/select_cancel"
+            android:paddingTop="10dp"
+            android:text="取消"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

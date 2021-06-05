@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your theme here. -->
+        <!--状态栏颜色-->
+        <item name="android:windowLightStatusBar">true</item>
+        <!--返回键那里的颜色-->
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+        <!--设置背景颜色-->
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
